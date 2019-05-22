@@ -6,9 +6,11 @@ import IconGithubCircle from 'mdi-material-ui/GithubCircle';
 import IconMaterialUi from 'mdi-material-ui/MaterialUi';
 import IconNetworkOffOutline from 'mdi-material-ui/NetworkOffOutline';
 import React from 'react';
+import pk from '../../package.json';
 
 export default {
   app: {
+    basename: pk.homepage,
     name: 'colostate-ricro-ui template',
     hasAutoLogin: true,
     nav: [
