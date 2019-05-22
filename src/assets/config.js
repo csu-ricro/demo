@@ -12,7 +12,7 @@ export default {
   app: {
     basename: pk.homepage,
     name: 'colostate-ricro-ui template',
-    hasAutoLogin: true,
+    hasLogin: false,
     nav: [
       [
         {
